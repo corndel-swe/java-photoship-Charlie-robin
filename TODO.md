@@ -6,25 +6,25 @@
 
 ## High priority
 
-- [ ] Complete `stripGreen()`
+- [x] Complete `stripGreen()`
 
-- [ ] Complete `stripBlue()`
+- [x] Complete `stripBlue()`
 
-- [ ] Complete `invert()`
+- [x] Complete `invert()`
 
-- [ ] Complete `grayScale()`
+- [x] Complete `grayScale()`
 
-- [ ] Complete `blackAndWhite()`
+- [x] Complete `blackAndWhite()`
 
-- [ ] Complete `colorChannel()`
+- [x] Complete `colorChannel()`
 
-- [ ] Complete `sepia()`
+- [x] Complete `sepia()`
 
-- [ ] Complete `adjustBrightness()`
+- [x] Complete `adjustBrightness()`
 
 ## Backlog
 
-### Improve file output naming
+### ~~Improve file output naming~~
 
 The output is always `"output.jpg"` but it would be good if it were
 `"cat-output.jpg"` or something. This way, if someone is working with another
@@ -34,7 +34,7 @@ overwrite the cat output.
 Can you have a go at figuring this out? I think you need to look in
 `lib/Converter.java`. Thanks!
 
-### Feedback in terminal
+### ~~Feedback in terminal~~
 
 When an image is modified and the output is saved, it would be great if a
 message was logged in the terminal so the user knows where to find it. Maybe
